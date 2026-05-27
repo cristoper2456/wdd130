@@ -1,0 +1,53 @@
+body {
+    width: 600px;
+    margin: auto;
+    font-family: lato, sans-serif;
+}
+
+main {
+    width: 60%;
+    margin: auto;
+
+}
+
+header{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    padding: 1px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+h1{
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+}
+img{
+    width: 100%;
+    margin: auto;
+    box-shadow: 0 0 30px #666;
+}
+
+section {
+    width: 90%;
+    background-color: #b8b5b5;
+    padding: 5%;
+    margin: 10px auto;
+}
+
+h2 {
+    border-bottom: 1px solid #050505;
+}
+section p{
+    margin-left: 15px;
+
+}
+section ul{
+    margin-left: 10px;
+}
+footer {
+    text-align: center;
+    background-color: #050505;
+    color: aliceblue;
+}
