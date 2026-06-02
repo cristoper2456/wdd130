@@ -1,33 +1,46 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 :root {
---dark-color: darkblue;
---height: auto;
---text: center;
+  --nav-color: steelblue;
+  --dark-color: darkblue;
+  --height: auto;
+  --text: center;
 }
+
 body {
   font-size: 16px;
   font-family: roboto, arial, sans-serif;
   margin: 0;
 }
+
 nav {
-  background-color: var(--dark-color);
+  background-color: var(--nav-color);
   padding: 10px;
   width: 100%;
 }
+
 nav a {
   color: white;
   display: block;
   padding: 10px;
+  text-decoration: none;
 }
+
+nav a:hover {
+  text-decoration: underline;
+}
+
 h1 {
-  background-color: var(--dark-color);
+  color: var(--nav-color);
+  background-color: transparent;
   padding: .5rem;
+  font-weight: normal;
 }
+
 img {
   width: 150px;
   height: var(--height);
@@ -35,35 +48,19 @@ img {
   padding: 2px;
   box-shadow: 0 0 30px gray;
 }
-main p {
-  padding: 0;
-  width: 100%;
-}
 
-p{
+p {
   margin: 1rem;
 }
 
-
 main {
   max-width: 640px;
-}
-   
-
-aside {
-  width: 20em;
-  height: var(--height);
-  position: relative;
-}
-aside img {
-  width: 200px;
-  height: var(--height);
+  margin: 0 auto;
 }
 
-aside h2{
-  position: absolute;
-  top: 6px;
-  left: 2px;
+main p {
+  padding: 0;
+  width: 100%;
 }
 
 main img {
@@ -74,25 +71,40 @@ main img {
   padding: 2px;
   box-shadow: 0 0 30px gray;
   margin: 0 0 1rem 1rem;
-  ;
 }
+
+aside {
+  width: 100%;
+  height: var(--height);
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+aside img {
+  width: 200px;
+  height: var(--height);
+  float: left;
+  margin-right: 1rem;
+}
+
+aside h2 {
+  margin-bottom: .5rem;
+}
+
 footer {
   margin-top: 1em;
   border-top: 1px solid #000;
   text-align: var(--text);
-}
-/* class selectors */
-.box {
-  margin: 1rem ;
-  border: 1px solid rgb(0 0 0 .1);
-  padding: 2rem ;
-  background-color: #ddd;
-  color: #060606;
-  
-}
-aside h2 {
-  position: relative; /* any other way looked ugly*/
-  top: 0px;
-  left: 0px;
+  padding: 1rem;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  background-color: #ddd;
+  color: #060606;
+}
