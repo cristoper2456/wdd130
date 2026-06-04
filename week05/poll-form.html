@@ -1,23 +1,44 @@
-<form>
-    <label for="fullname">Full name</label>
-    <input type="text" id="fullname" name="fullname" required>
+<!DOCTYPE html>
+<html lang="en">
 
-    <label for="email">Email Address</label>
-    <input type="email" name="useremail" id="useremail" required>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
 
-    <label for="browser">What is your Favorite Browser?</label>
-    <select name="browser" id="browser">
-        <option value="chrome">Chrome</option>
-        <option value="edge">Edge</option>
-        <option value="safary">Safary</option>
-    </select>
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <label for="fullname">Full name</label>
+            <input type="text" id="fullname" name="fullname" required>
 
-    <formr="pet"> Do you have a household pet?
-        <input type="checkbox" id="pet" name="pet">
-        <label for="feedback"> List the places you have lived:</label>
-        <textarea name="feedback" id="feedback" rows="4"
-          placeholder="Santo Domingo, Santiago, Villa mella, otro"></textarea>
+            <label for="email">Email Address</label>
+            <input type="email" name="useremail" id="useremail" required>
 
-        <button type="submit">Submit Poll</button>
+            <label for="browser">What is your Favorite Browser?</label>
+            <select name="browser" id="browser">
+                <option value="chrome">Chrome</option>
+                <option value="edge">Edge</option>
+                <option value="safari">Safari</option>
+            </select>
 
-</form>
+            <label for="pet">Do you have a household pet?</label>
+            <input type="checkbox" id="pet" name="pet">
+            <label for="feedback">List the places you have lived:</label>
+            <textarea id="feedback" name="feedback" rows="4"
+              placeholder="Santo Domingo, Santiago, Haiti"></textarea>
+
+            <button type="submit">Submit Poll</button>
+
+        </form>
+    </main>
+    <footer>© 2026 | WDD 130 | Cristopher Castro</footer>
+</body>
+
+
+</html>
