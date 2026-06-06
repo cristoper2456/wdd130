@@ -25,7 +25,6 @@ footer {
   margin: 0 auto;
 }
 
-/* ── HEADER ── */
 header {
   display: flex;
   align-items: center;
@@ -38,7 +37,6 @@ header img {
   height: auto;
 }
 
-/* ── NAV ── */
 nav ul {
   list-style: none;
   padding: 0;
@@ -60,7 +58,6 @@ nav ul li a:hover {
   color: var(--accent2-color);
 }
 
-/* ── HEADINGS ── */
 h1,
 h2 {
   font-family: var(--heading-font);
@@ -70,7 +67,6 @@ h2 {
   text-align: center;
 }
 
-/* ── HERO ── */
 .hero {
   position: relative;
 }
@@ -122,7 +118,6 @@ h1 {
   flex: 1;
 }
 
-/* ── SECTIONS ── */
 section {
   margin: 16px 0;
 }
@@ -132,7 +127,6 @@ section p {
   padding: 8px;
 }
 
-/* ── FOOTER ── */
 footer {
   padding: 16px 0;
   border-top: 1px solid #ccc;
@@ -161,7 +155,6 @@ footer p {
   object-fit: cover;
 }
 
-/* ── PAGE TITLE ── */
 .page-title {
   background-color: var(--accent1-color);
   color: var(--primary-color);
@@ -171,7 +164,6 @@ footer p {
   margin-bottom: 20px;
 }
 
-/* ── CONTACT INFO SECTION ── */
 .contact-info {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -199,7 +191,6 @@ footer p {
   display: block;
 }
 
-/* ── EMPLOYEES SECTION ── */
 .employees {
   margin: 20px 0;
 }
@@ -242,7 +233,6 @@ footer p {
   font-size: 0.9rem;
 }
 
-/* ── CONTACT FORM SECTION ── */
 .contact-form {
   margin: 20px 0;
 }
@@ -260,7 +250,6 @@ footer p {
   border-radius: 8px;
 }
 
-/* ── FORM ITEM LAYOUT ── */
 .form-item {
   display: grid;
   align-items: center;
@@ -294,7 +283,6 @@ footer p {
   border-color: var(--secondary-color);
 }
 
-/* ── RADIO GROUP ── */
 .radio-group {
   display: flex;
   flex-direction: column;
@@ -316,7 +304,6 @@ footer p {
   accent-color: var(--secondary-color);
 }
 
-/* ── CHECKBOX ── */
 .checkbox-item {
   display: flex;
   align-items: center;
@@ -333,7 +320,6 @@ footer p {
   font-weight: normal;
 }
 
-/* ── SUBMIT BUTTON ── */
 .contact-form button {
   background-color: var(--accent1-color);
   color: var(--primary-color);
