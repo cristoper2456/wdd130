@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+      content="Contact DRY OAR Rafting to ask questions, make reservations, or send us a message. We'd love to hear from you!">
+    <meta name="author" content="Cristopher Geovanni Castro Fernandez">
+    <title>Contact Us | DRY OAR Rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-inner">
+            <img src="images/dry_oar.jpg" alt="Dry OAR Logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2 class="page-title">Contact Us</h2>
+
+        <!-- Company Info + Map -->
+        <section class="contact-info">
+            <div class="company-details">
+                <h2>Get In Touch</h2>
+                <p><strong>Address:</strong> Buena vita 1ra, calle proyeto, casa #4</p>
+                <p><strong>Phone:</strong> (829) 960-6184</p>
+                <p><strong>Toll Free:</strong> 809-568-9588</p>
+                <p><strong>Email:</strong> info1234@dryoarrafting.org</p>
+            </div>
+            <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!4v1780783278462!6m8!1m7!1s8soz0ojajml0vkOKZZCilQ!2m2!1d18.52713296905706!2d-69.8974465644663!3f341.3506669410254!4f-35.16824147329635!5f0.7820865974627469"
+                  width="100%" height="250" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade" title="DRY OAR Rafting Location">
+                </iframe>
+            </div>
+        </section>
+
+        <!-- Employee Profiles -->
+        <section class="employees">
+            <h2>Meet Our Team</h2>
+            <div class="employee-grid">
+                <figure>
+                    <img src="images/instructorrrrrrrr..jfif" alt="Geovanna - Head Guide">
+                    <figcaption>Geovanna Castro<br><span>Head Guide</span></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/otro instructorrrrrrr.jfif" alt="Cristopher - Safety Director">
+                    <figcaption>Cristopher Castro<br><span>Safety Director</span></figcaption>
+                </figure>
+                <figure>
+                    <img src="images/otrooooo.jfif" alt="Pedro - Trip Coordinator">
+                    <figcaption>Pedro Peter<br><span>Trip Coordinator</span></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#">
+                <div class="form-item column2">
+                    <label for="name">Your Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-item column2">
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-item">
+                    <label>Purpose of Message:</label>
+                    <div class="radio-group">
+                        <label class="radio-label">
+                            <input type="radio" name="purpose" value="general" required> General
+                            Inquiry
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="purpose" value="reservation"> Reservation
+                            Question
+                        </label>
+                        <label class="radio-label">
+                            <input type="radio" name="purpose" value="suggestion"> Website
+                            Suggestion
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-item">
+                    <label for="message">Your Message:</label>
+                    <textarea id="message" name="message" rows="5"
+                      placeholder="Write your message here..."></textarea>
+                </div>
+
+                <div class="form-item checkbox-item">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">Send My Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 | DRY OAR | Cristopher Castro</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.jpg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.jpg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.jpg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+</html>
