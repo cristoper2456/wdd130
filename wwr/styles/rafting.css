@@ -438,3 +438,21 @@ h1.page-title {
   object-fit: cover;
   border-radius: 6px;
 }
+
+.trips-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.trips-table th,
+.trips-table td {
+  border: 1px solid var(--border-color);
+  padding: 10px 16px;
+  text-align: left;
+}
+
+.trips-table th {
+  background-color: var(--bg-color);
+  font-weight: bold;
+}
