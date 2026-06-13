@@ -456,3 +456,20 @@ h1.page-title {
   background-color: var(--bg-color);
   font-weight: bold;
 }
+
+.newsletter {
+  padding: 24px 16px;
+}
+
+.newsletter h2 {
+  font-size: 1.8rem;
+}
+
+.newsletter label,
+.newsletter input {
+  font-size: 1.1rem;
+}
+
+.newsletter input {
+  padding: 10px 12px;
+}
